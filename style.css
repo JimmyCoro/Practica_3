@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(32, 215, 247);
+}
+
+p{
+    color: aliceblue;
+    font-size: 15;
+    /*comentario*/
+}
+ h1, h2, h3, h4, h5, h6{
+    text-align: center;
+ }
+
+ /*cambio de color solo al h2 dentro del div
+*/
+div h2{
+    color: rgb(198, 243, 0);
+}
+
+
+/*identificador: ID*/
+#parrafo_id{
+    color: rgb(246, 12, 12);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Clases: class*/
+.parrafo_class{
+    color: rgb(38, 1, 224);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+ 
+/*separar link de la imagen*/
+a, img {
+    display: block;
+}
+
+a{
+    margin: 50px 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+a:hover{
+    color:rgb(20, 196, 220)
+}
+
+img{
+    width: 70%;
+    margin: auto;
+}
